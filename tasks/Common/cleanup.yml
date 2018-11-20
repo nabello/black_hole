@@ -1,0 +1,8 @@
+---
+
+# Remove source directory
+- file:
+    path: "{{ item }}"
+    state: absent
+  with_items:
+    - "{{ compiling_path }}"

@@ -1,0 +1,8 @@
+---
+
+#######
+# YUM #
+#######
+# Cleanup yum all cache
+- name: Cleanup yum cache
+  command: yum clean all

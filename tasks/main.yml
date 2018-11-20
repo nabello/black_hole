@@ -1,0 +1,4 @@
+---
+
+- include_tasks: Redhat/cleanup_redhat.yml
+- include_tasks: Common/cleanup.yml
